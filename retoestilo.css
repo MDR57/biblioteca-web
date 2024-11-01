@@ -1,0 +1,87 @@
+header {
+    font-weight:20px;
+    weight:85%;
+    background-color: chocolate;
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+
+}
+header h1 {
+    color: black;
+    font-size: 300%;  
+}
+body{
+    background-image: url(IMAGENES/photo-1683871268982-a19153dbb35d.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body,h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: chocolate;
+}
+nav{
+    background-color: chocolate;
+    font-size: 200%;
+
+ }
+footer{
+    background-color: chocolate;
+    clear:both;
+    width:100%; 
+
+}
+.Etiquetas {
+    padding-left: 2%;
+}
+#tabla1, #tabla1 th, #tabla1 td {
+        border: 2px solid black; /* Bordes de la tabla y celdas */
+        border-collapse: collapse; /* Para que los bordes no se dupliquen */
+        padding: 10px; /* Espaciado interno para que el texto no esté pegado a los bordes */
+        text-align: center; /* Centrando el contenido */
+        font-size: 20px;
+        margin-left: 30%;
+        margin-right: 10%;
+        text-align: center;
+        background-color: chocolate;  
+        width: 50%;
+}
+
+section{
+    background-color: chocolate;
+    font-size: 36px;
+    text-align: justify;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width:60%;
+    float:left;
+    margin-bottom: 3%;
+    
+}
+h2{
+    font-size:50px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline; 
+    padding: 3%;   
+}
+
+aside{
+    background-color: chocolate;
+    width:30%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    float: right;
+    font-size: 25px; 
+}
+
+.ubi{
+    width: 2%;
+}       

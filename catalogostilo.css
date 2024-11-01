@@ -1,0 +1,55 @@
+/* Estilos para el catálogo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: chocolate;
+}
+header {
+    background-color: rgb(206, 123, 61);
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+    justify-items: center;
+}
+
+.libro {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    text-align: center;
+}
+
+.libro img {
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.libro h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.libro p {
+    font-size: 14px;
+    color: #666;
+}
+button{
+    width: 10%;
+    padding: 2%;
+    border: 5%;
+    text-align: center;
+    float: center;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline; 
+    padding: 1%;   
+}
